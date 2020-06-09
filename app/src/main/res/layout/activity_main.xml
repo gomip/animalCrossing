@@ -11,33 +11,42 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linear_card"/>
 
     <!-- Card View -->
     <LinearLayout
         android:id="@+id/linear_card"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
 
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar">
-
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toTopOf="@+id/linear_btnList1">
+<!--
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_main"
             android:layout_width="290dp"
-            android:layout_height="380dp"
-            android:layout_marginTop="5dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
 
             app:cardBackgroundColor="@color/backgroundCard"
             app:cardCornerRadius="20dp"
-            app:cardElevation="2dp"
-
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:strokeWidth="0dp"
+            />
+-->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:clipToPadding="false"
+            />
     </LinearLayout>
+
 
     <!-- 버튼 -->
     <LinearLayout
@@ -46,9 +55,10 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop ="10dp"
+        android:layout_marginBottom="10dp"
 
         app:layout_constraintTop_toBottomOf="@id/linear_card"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         >
         <!-- 상단 버튼 -->
         <LinearLayout
@@ -69,8 +79,8 @@
 
                 <ImageView
                     android:id="@+id/img_dictionary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/btn_dictionary"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -93,8 +103,8 @@
 
                 <ImageView
                     android:id="@+id/img_villager"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/btn_villager"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -117,8 +127,8 @@
 
                 <ImageView
                     android:id="@+id/img_diy"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/btn_diy"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -133,20 +143,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"/>
-        </LinearLayout>
-
-        <!-- 하단 버튼 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginTop="20dp">
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -155,8 +151,8 @@
 
                 <ImageView
                     android:id="@+id/img_calendar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/btn_calenar"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -179,8 +175,8 @@
 
                 <ImageView
                     android:id="@+id/img_raddish"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:background="@drawable/btn_raddish"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -203,9 +199,9 @@
 
                 <ImageView
                     android:id="@+id/img_setting"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/btn_dictionary"/>
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_setting"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -219,7 +215,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"/>
-
         </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
