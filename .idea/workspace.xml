@@ -15,37 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c7e09cc-04b0-48a6-8f07-bec8be1809e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/androidtown/animalcrossing/CardAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/androidtown/animalcrossing/CardModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_villager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/image/btn-calendar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/image/btn-dictioanry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/image/btn-diy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/image/btn-raddish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/image/btn-setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/image/btn-villager.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/build-attribution/androidGradlePluginAttributionData" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/androidtown/animalcrossing/CardAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/androidtown/animalcrossing/CardAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/androidtown/animalcrossing/CardModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/androidtown/animalcrossing/CardModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/androidtown/animalcrossing/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/androidtown/animalcrossing/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/card_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_view.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +60,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1c2NVfOkzTCSVIDaLezEOAsYHOh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -190,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1588594139717</updated>
     </task>
+    <task id="LOCAL-00001" summary="디자인 수정">
+      <created>1591686858952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591686858952</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -200,6 +183,10 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="디자인 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="디자인 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1435" y="279" key="#PSD" timestamp="1591664962874">
@@ -222,6 +209,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="860" y="455" key="AndroidCreateResourceFileDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1591517800714" />
+    <state x="-1383" y="142" key="CommitChangelistDialog2" timestamp="1591686858657">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1383" y="142" key="CommitChangelistDialog2/-1920.0.1920.1080/-3840.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1591686858657" />
     <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1591624120645">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -230,6 +221,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1591517419438" />
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1591686864534">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/-3840.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1591686864534" />
     <state x="1074" y="477" key="chooseDestDirectoryDialog" timestamp="1591527346470">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -243,6 +238,10 @@
     </state>
     <state x="-1208" y="419" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/-3840.23.1920.1057/0.23.1680.1027@-1920.23.1920.1057" timestamp="1591683371200" />
     <state x="949" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1591622787427" />
+    <state x="-1171" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591686860687">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1171" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1080/-3840.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1591686860687" />
     <state x="-1368" y="127" width="816" height="825" key="find.popup" timestamp="1591683540705">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>

@@ -28,10 +28,11 @@
                 android:text = "섬이름"
                 android:textSize="13sp" />
 
-            <TextView
+            <EditText
                 android:id = "@+id/text_island_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
 
                 android:text = "인센티브제도"
                 android:textSize = "16sp"
@@ -45,10 +46,11 @@
                 android:text = "내 주민"
                 android:textSize="13sp" />
 
-            <TextView
+            <EditText
                 android:id = "@+id/text_my_slave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
 
                 android:text = "고밉"
                 android:textSize = "16sp"
