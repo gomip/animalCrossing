@@ -2,35 +2,33 @@ package org.androidtown.animalcrossing
 
 import android.R
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.NonNull
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
+import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.PagerAdapter
+import org.androidtown.animalcrossing.MainFragment.fragmentIsland
+import org.androidtown.animalcrossing.MainFragment.fragmentSlave
 
 
-class CardAdapter : PagerAdapter() {
+class CardAdapter : FragmentPagerAdapter {
 
-    private lateinit var models : List<CardModel>
-    private lateinit var layoutInflater : LayoutInflater
-    private lateinit var context : Context
-
-    fun CardAdapter(model: List<CardModel>, ctx : Context) {
-        this.models  = model
-        this.context = ctx
+    private val list : ArrayList<Fragment> = ArrayList()
+    constructor(fragmentManager: FragmentManager) : super(fragmentManager) {
+        list.add(fragmentIsland())
+        list.add(fragmentSlave())
     }
 
-    override fun isViewFromObject(view: View, obj: Any): Boolean {
-        return view.equals(obj)
+    override fun getItem(position: Int): Fragment {
+        return list.get(position)
     }
 
-    override fun getCount(): Int {
-        return models.size
+    override fun getCount() : Int {
+        return list.size
     }
-
-//    @NonNull
-//    @Override
-//    fun instantiateItem(@NonNull contiainer : ViewGroup, pos : Int) : Object {
-//        val cardview = LayoutInflater.from(context).inflate(org.androidtown.animalcrossing.R.layout.card_view, null)
-//    }
 }

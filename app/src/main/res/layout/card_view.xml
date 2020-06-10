@@ -26,43 +26,43 @@
                 android:layout_height="wrap_content"
 
                 android:text = "섬이름"
-                android:textSize="13sp" />
+                android:textSize="20sp" />
 
-            <EditText
+            <TextView
                 android:id = "@+id/text_island_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
 
                 android:text = "인센티브제도"
-                android:textSize = "16sp"
+                android:textSize = "25sp"
                 android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop ="10dp"
+                android:layout_marginTop ="20dp"
 
                 android:text = "내 주민"
-                android:textSize="13sp" />
+                android:textSize="20sp" />
 
-            <EditText
+            <TextView
                 android:id = "@+id/text_my_slave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
 
                 android:text = "고밉"
-                android:textSize = "16sp"
+                android:textSize = "25sp"
                 android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop ="10dp"
+                android:layout_marginTop ="20dp"
 
                 android:text = "달성률"
-                android:textSize="13sp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
