@@ -25,19 +25,7 @@
 
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintBottom_toTopOf="@+id/linear_btnList1">
-<!--
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/card_main"
-            android:layout_width="290dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_marginBottom="2dp"
 
-            app:cardBackgroundColor="@color/backgroundCard"
-            app:cardCornerRadius="20dp"
-            app:strokeWidth="0dp"
-            />
--->
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
@@ -45,6 +33,7 @@
             android:overScrollMode="never"
             android:clipToPadding="false"
             />
+
     </LinearLayout>
 
 
@@ -54,13 +43,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop ="10dp"
         android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
 
         app:layout_constraintTop_toBottomOf="@id/linear_card"
         app:layout_constraintBottom_toBottomOf="parent"
         >
-        <!-- 상단 버튼 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -79,9 +67,10 @@
 
                 <ImageView
                     android:id="@+id/img_dictionary"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/btn_dictionary"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_dictionary_2"
+                    />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -103,9 +92,9 @@
 
                 <ImageView
                     android:id="@+id/img_villager"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/btn_villager"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_villager_2"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -127,9 +116,9 @@
 
                 <ImageView
                     android:id="@+id/img_diy"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/btn_diy"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_diy_2"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -151,9 +140,9 @@
 
                 <ImageView
                     android:id="@+id/img_calendar"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/btn_calenar"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_calendar_2"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -175,9 +164,9 @@
 
                 <ImageView
                     android:id="@+id/img_raddish"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/btn_raddish"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_raddish_2"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -199,9 +188,9 @@
 
                 <ImageView
                     android:id="@+id/img_setting"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/btn_setting"/>
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_setting_2"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
