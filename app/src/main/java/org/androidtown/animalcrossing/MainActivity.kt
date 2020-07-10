@@ -1,14 +1,9 @@
 package org.androidtown.animalcrossing
 
-import android.app.Application
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
 import android.graphics.Rect
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.Gravity
 import android.view.View
 import android.widget.*
 import androidx.annotation.DimenRes
@@ -16,8 +11,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import com.google.android.material.appbar.AppBarLayout
-import com.google.android.material.appbar.MaterialToolbar
 import io.realm.Realm
 import kotlinx.android.synthetic.main.activity_main.*
 import org.androidtown.animalcrossing.DictionaryMenu.DictMenuList
@@ -25,9 +18,12 @@ import org.androidtown.animalcrossing.MainFragment.fragmentIsland
 import org.androidtown.animalcrossing.MainFragment.fragmentSlave
 import java.lang.Math.abs
 
+/**
+ * 20200610 | 김정훈 | 기본 틀 생성
+ * 20200614 | gomip | 하단 메뉴 연결 생성
+ */
 class MainActivity : FragmentActivity() {
 
-    private lateinit var models : CardModel
     // 이름 저장 -> db로 변경
 
     override fun onCreate(savedInstanceState: Bundle?) {
